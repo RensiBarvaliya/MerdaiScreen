@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<style>
+			*
+			{
+				margin:0;
+				padding:0;
+			}
+			.container
+			{
+				display:flex;
+			}
+			.container div
+			{
+				flex:1;
+				border:1px solid black;
+				background-color:rgb(121,180,204);
+			}
+			@media screen and (max-width:600px)
+			{
+			.container div
+			{
+				border:none;
+				background-image:linear-gradient(to right,rgb(4,229,236),rgb(3,3,3));
+				color:white;
+				text-align:center;
+				font-family:sans-serif;
+				padding:10px;
+				font-size:20px;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div>Home</div>		
+			<div>About</div>
+			<div>Courses</div>
+			<div>Contact</div>
+		</div>
+	</body>
+</html>

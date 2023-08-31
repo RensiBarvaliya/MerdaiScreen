@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Media</title>
+		<style>
+			.main
+			{
+				display:flex;
+				gap:30px;
+				margin-top:30px;
+				font-size:30px;
+				color:white;
+			}
+			.main div
+			{
+				background-image:linear-gradient(red,blue,yellow);
+			}
+			@media screen and (max-width:720px)
+			{
+			.main div
+			{
+				background-image:radial-gradient(red,pink,yellow);
+				font-size:50px;	
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div>Home</div>
+			<div>Contat</div>
+			<div>Service</div>
+			<div>Course</div>
+		</div>
+	</body>
+</html>
